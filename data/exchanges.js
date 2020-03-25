@@ -7,8 +7,38 @@ function exchanges() {
 				{
 					"days": "Sun-Sat",
 					"type": "postmarket",
+					"start": "20:00",
+					"end": "21:00"
+				},
+				{
+					"days": "Sun-Sat",
+					"type": "postmarket",
+					"start": "00:00",
+					"end": "01:00"
+				},
+				{
+					"days": "Sun-Sat",
+					"type": "postmarket",
+					"start": "04:00",
+					"end": "05:00"
+				},
+				{
+					"days": "Sun-Sat",
+					"type": "postmarket",
+					"start": "08:00",
+					"end": "09:00"
+				},
+				{
+					"days": "Sun-Sat",
+					"type": "postmarket",
 					"start": "12:00",
 					"end": "13:00"
+				},
+				{
+					"days": "Sun-Sat",
+					"type": "postmarket",
+					"start": "16:00",
+					"end": "17:00"
 				},
 			]
 		},
