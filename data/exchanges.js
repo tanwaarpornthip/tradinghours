@@ -43,7 +43,7 @@ function exchanges() {
 			]
 		},
 		{
-			"name": "METALS: XAUUSD XAGUSD XPDUSD (Gold Silver Palladium)",
+			"name": "METALS: XAGUSD XAUUSD XAGUSD (Silver Gold)",
 			"timezone": "Greenwich",
 			"link": "https://www.oanda.com/au-en/trading/hours-of-operation/",
 			"trading_hours": [
@@ -58,6 +58,31 @@ function exchanges() {
 					"type": "regular",
 					"start": "00:00",
 					"end": "21:00"
+				}
+			]
+		},
+		{
+			"name": "METALS: XPDUSD (Palladium)",
+			"timezone": "Greenwich",
+			"link": "https://www.oanda.com/au-en/trading/hours-of-operation/",
+			"trading_hours": [
+				{
+					"days": "Sun",
+					"type": "regular",
+					"start": "22:00",
+					"end": "24:00"
+				},
+				{
+					"days": "Mon-Thu",
+					"type": "regular",
+					"start": "00:00",
+					"end": "21:00"
+				},
+				{
+					"days": "Fri",
+					"type": "regular",
+					"start": "00:00",
+					"end": "19:00"
 				}
 			]
 		},
