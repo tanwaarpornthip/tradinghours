@@ -48,7 +48,7 @@ function exchanges() {
 			"link": "https://www.oanda.com/au-en/trading/hours-of-operation/",
 			"trading_hours": [
 				{
-					"days": "Sun-Fri",
+					"days": "Mon-Fri",
 					"type": "regular",
 					"start": "22:00",
 					"end": "24:00"
