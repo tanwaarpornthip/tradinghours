@@ -6,44 +6,50 @@ function exchanges() {
 			"trading_hours": [
 				{
 					"days": "Sun-Sat",
-					"type": "postmarket",
-					"start": "20:00",
-					"end": "21:00"
+					"type": "regular",
+					"start": "06:45",
+					"end": "07:15"
 				},
 				{
 					"days": "Sun-Sat",
 					"type": "postmarket",
-					"start": "00:00",
-					"end": "01:00"
+					"start": "19:45",
+					"end": "20:15"
 				},
 				{
 					"days": "Sun-Sat",
 					"type": "postmarket",
-					"start": "04:00",
-					"end": "05:00"
+					"start": "23:45",
+					"end": "00:15"
 				},
 				{
 					"days": "Sun-Sat",
 					"type": "postmarket",
-					"start": "08:00",
-					"end": "09:00"
+					"start": "03:45",
+					"end": "04:15"
 				},
 				{
 					"days": "Sun-Sat",
 					"type": "postmarket",
-					"start": "12:00",
-					"end": "13:00"
+					"start": "07:45",
+					"end": "08:15"
 				},
 				{
 					"days": "Sun-Sat",
 					"type": "postmarket",
-					"start": "16:00",
-					"end": "17:00"
+					"start": "11:45",
+					"end": "12:15"
+				},
+				{
+					"days": "Sun-Sat",
+					"type": "postmarket",
+					"start": "15:45",
+					"end": "16:15"
 				},
 			]
 		},
 		{
-			"name": "METALS: XAGUSD XAUUSD XAGUSD (Silver Gold)",
+			"name": "METALS: XAGUSD XAUUSD (Silver Gold)",
 			"timezone": "Greenwich",
 			"link": "https://www.oanda.com/au-en/trading/hours-of-operation/",
 			"trading_hours": [
@@ -111,23 +117,23 @@ function exchanges() {
 			"link": "https://www.oanda.com/au-en/trading/hours-of-operation/",
 			"trading_hours": [
 				{
-					"days": "Sun-Fri",
+					"days": "Sun-Thu",
 					"type": "regular",
 					"start": "20:00",
 					"end": "24:00"
 				},
 				{
-					"days": "Sun-Fri",
+					"days": "Mon-Thu",
+					"type": "regular",
+					"start": "00:00",
+					"end": "17:59"
+				},
+				{
+					"days": "Fri",
 					"type": "regular",
 					"start": "00:00",
 					"end": "16:59"
-				},
-				{
-					"days": "Sun-Fri",
-					"type": "regular",
-					"start": "17:59",
-					"end": "20:00"
-				},
+				}
 			]
 		},
 		{
@@ -142,13 +148,13 @@ function exchanges() {
 					"end": "24:00"
 				},
 				{
-					"days": "Sun-Fri",
+					"days": "Mon-Fri",
 					"type": "regular",
 					"start": "00:00",
 					"end": "07:44"
 				},
 				{
-					"days": "Sun-Fri",
+					"days": "Mon-Fri",
 					"type": "regular",
 					"start": "08:30",
 					"end": "13:19"
