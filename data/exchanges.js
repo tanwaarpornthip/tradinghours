@@ -20,6 +20,12 @@ function exchanges() {
 					"days": "Sun-Sat",
 					"type": "postmarket",
 					"start": "23:45",
+					"end": "24:00"
+				},
+				{
+					"days": "Sun-Sat",
+					"type": "postmarket",
+					"start": "00:00",
 					"end": "00:15"
 				},
 				{
